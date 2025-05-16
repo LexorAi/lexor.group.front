@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Carrossel from './Carrossel';
+import Header from './Header';
 
 function App() {
   {/* textos aparecerem ao scrollar a tela */}
@@ -28,11 +29,12 @@ function App() {
       <br></br><br></br><br></br>
       {/* CABEÇALHO PRINCIPAL */}
       <header id="inicio">
-        <h1>Transformando Ideias em Soluções Digitais</h1>
+        <Header />
+        {/* <h1>Transformando Ideias em Soluções Digitais</h1>
         <p className="slogan">Inovação, tecnologia e excelência para o seu negócio.</p>
         <p className="descricao">
           Somos uma empresa de tecnologia voltada para o desenvolvimento de soluções inovadoras que impulsionam a transformação digital de negócios e melhoram a experiência das pessoas no uso da tecnologia. Com uma equipe multidisciplinar e apaixonada por inovação, atuamos na criação de produtos e serviços que combinam eficiência operacional, inteligência de dados, segurança e usabilidade. Desde a concepção de sistemas personalizados até a implementação de plataformas baseadas em inteligência artificial, automação e nuvem, nosso foco está em entregar valor real, acompanhando as necessidades do mercado e superando as expectativas de nossos clientes. Valorizamos a colaboração, a ética e o aprendizado contínuo, construindo parcerias sólidas e duradouras. Acreditamos que tecnologia é mais do que ferramenta — é o motor da evolução, e por isso colocamos o ser humano no centro de tudo o que desenvolvemos.
-        </p>
+        </p> */}
       </header>
 
       {/* CONTEÚDO PRINCIPAL */}
