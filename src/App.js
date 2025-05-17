@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Carrossel from './Carrossel';
 import Header from './Header';
+import Card from './Card';
 
 function App() {
   {/* textos aparecerem ao scrollar a tela */}
@@ -60,9 +61,10 @@ function App() {
 
         <section id="servicos" className="descricao" data-aos="fade-up">
           <h2>Serviços</h2>
-          <p>
+          <Card />
+          {/* <p>
             Na <strong>Lexor</strong>, desenvolvemos soluções digitais sob medida para impulsionar sua empresa no mundo digital...
-          </p>
+          </p> */}
         </section>
 
         <section id="produtos" className="descricao" data-aos="fade-up">
