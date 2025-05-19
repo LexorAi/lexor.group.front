@@ -1,0 +1,63 @@
+.cards-container {
+  display: flex;
+  flex-wrap: nowrap; /* Impede quebra de linha */
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-direction: row;
+}
+
+.card-servico {
+  flex: 0 0 22%;
+  background-color: #002233;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  min-width: 200px;
+  max-width: 22%;
+}
+
+
+.card-servico:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card-servico .icone {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #F2B624; /* laranja Lexor */
+}
+
+.card-servico h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-servico p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+@media (max-width: 1400px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+
+  .card-servico {
+    flex: 0 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-servico {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+}
+

@@ -153,6 +153,7 @@ html {
   margin: auto;
 }
 
+
 .image-wrapper {
   position: relative;
   display: inline-block;
@@ -198,4 +199,49 @@ html {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.divisoria-inclinada-baixo {
+  height: 100px;
+  background-color: #F2B624;
+  clip-path: polygon(0 0, 100% 100%, 0% 100%);
+}
+
+/* .divisoria-inclinada-cima {
+  height: 140px; /* ou 110px 
+  background-color: #F2B624;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+} */
+
+.divisoria-inclinada-cima {
+  height: 120px;
+  background-color: #F2B624;
+  clip-path: path("M 100% 1px Q 80% 20px 0% 0 L 0 100% L 100% 100% Z");
+}
+
+@supports (clip-path: path("M0,0 L100,0 L100,100 L0,100 Z")) {
+  .divisoria-inclinada-cima {
+    clip-path: path("M 100% 1px Q 80% 20px 0% 0 L 0 100% L 100% 100% Z");
+  }
+}
+
+.servicos {
+  background-color: #F2B624;
+  color: #002233;
+}
+
+.produtos {
+  background-color: #002233;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.contato {
+  background-color: #F2B624;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.hblue {
+  color: #002233;
 }

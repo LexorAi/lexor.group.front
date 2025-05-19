@@ -1,10 +1,10 @@
-// src/Carrossel.js
 import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import img1 from './imagens/stock-vs.png';
 import img2 from './imagens/stock-vs-white.png';
+
 
 function Carrossel() {
     const settings = {
@@ -15,6 +15,7 @@ function Carrossel() {
         slidesToScroll: 1,    // quantos por clique
         autoplay: true,
         autoplaySpeed: 3000,  // tempo entre os slides (ms)
+        arrows: true,
     };
 
     return (
@@ -60,5 +61,6 @@ function Carrossel() {
         </div>
     );
 }
+
 
 export default Carrossel;
