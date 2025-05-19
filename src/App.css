@@ -2,7 +2,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background-color: #000; */
-  background-color: #141313;
+  /* background-color: #141313; */
+  background-color: #002233;
   color: #f2f2f2;
 }
 
@@ -32,20 +33,20 @@ body {
   display: flex;
   justify-content: space-around; /* separa logo e menu */
   align-items: center;
-  background-color: #111;
+  background-color: #F2B624;
   padding: 20px 40px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  color: white;
+  color: #002233;
   z-index: 1000;
 }
 
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #F2B624;
+  color: #002233;
   display: block;
 }
 
@@ -59,7 +60,7 @@ body {
 }
 
 .menu li a {
-  color: #f2f2f2;
+  color: #002233;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;

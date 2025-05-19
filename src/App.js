@@ -43,22 +43,9 @@ function App() {
       </header>
           
       <br></br><br></br><br></br><br></br>
+
       {/* CONTEÚDO PRINCIPAL */}
       <main>
-        {/* <section id="visao" className="descricao" data-aos="fade-up">
-          <h2>Visão</h2>
-          <p>
-            Nossa visão é ser uma das principais referências em tecnologia e inovação no cenário nacional e internacional, reconhecida por nossa capacidade de antecipar tendências, entregar soluções que geram valor real e por impactar positivamente a sociedade...
-          </p>
-        </section>
-
-        <section id="missao" className="descricao" data-aos="fade-up">
-          <h2>Missão</h2>
-          <p>
-            Nossa missão é criar e entregar soluções tecnológicas inteligentes, seguras e escaláveis, que ajudem empresas e pessoas a superarem desafios, otimizarem processos e explorarem novas possibilidades em um mundo cada vez mais digital...
-          </p>
-        </section> */}
-
         <section id="servicos" className="descricao" data-aos="fade-up">
           <h2>Serviços</h2>
           <Card />
@@ -66,11 +53,12 @@ function App() {
             Na <strong>Lexor</strong>, desenvolvemos soluções digitais sob medida para impulsionar sua empresa no mundo digital...
           </p> */}
         </section>
-
+            
+        <br></br><br></br><br></br><br></br>
         <section id="produtos" className="descricao" data-aos="fade-up">
           <h2>Produtos</h2>
           <Carrossel />
-        </section>
+        </section> 
 
         <section id="contato" className="descricao" data-aos="fade-up">
           <h2>Contato</h2>
