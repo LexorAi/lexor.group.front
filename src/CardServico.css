@@ -43,7 +43,7 @@
   color: #fff;
 }
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   .cards-container {
     flex-wrap: wrap;
   }
@@ -52,7 +52,7 @@
     flex: 0 1 45%;
     max-width: 45%;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .card-servico {
